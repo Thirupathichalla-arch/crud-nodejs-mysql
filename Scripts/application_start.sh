@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #give permission for everything in the express-app directory
-sudo chmod -R 777 /opt/codedeploy-agent/deployment-root/1ff3b535-1fff-47e2-9225-a912b0bfe36a/d-DMRSWNSFJ/deployment-archive/
+sudo chmod -R 777 /home/ec2-user/express-app
 
 #navigate into our working directory where we have all our github files
-cd /opt/codedeploy-agent/deployment-root/1ff3b535-1fff-47e2-9225-a912b0bfe36a/d-DMRSWNSFJ/deployment-archive/:wq
+cd /home/ec2-user/express-app
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
