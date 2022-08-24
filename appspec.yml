@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/express-app
+    destination: /opt/codedeploy-agent/deployment-root/1ff3b535-1fff-47e2-9225-a912b0bfe36a/d-DMRSWNSFJ/deployment-archive/
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh
