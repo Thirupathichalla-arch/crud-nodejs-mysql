@@ -5,14 +5,14 @@ files:
     destination: /opt/codedeploy-agent/deployment-root/1ff3b535-1fff-47e2-9225-a912b0bfe36a/d-DMRSWNSFJ/deployment-archive/
 hooks:
   ApplicationStop:
-    - location: scripts/application_stop.sh
+    - location: Scripts/application_stop.sh
       timeout: 300
       runas: ec2-user
   BeforeInstall:
-    - location: scripts/before_install.sh
+    - location: Scripts/before_install.sh
       timeout: 300
       runas: ec2-user
   ApplicationStart:
-    - location: scripts/application_start.sh
+    - location: Scripts/application_start.sh
       timeout: 300
       runas: ec2-user
